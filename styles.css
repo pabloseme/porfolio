@@ -1,0 +1,120 @@
+html{
+    scroll-behavior: smooth;
+}
+
+body{
+    font-family: 'Montserrat', sans-serif;
+}
+header{
+    width: 100vw;
+    position: fixed;
+    top: 0;
+    z-index:2;
+}
+
+.navbar-nav .nav-link {
+    color : white; 
+}
+
+.navbar-nav .nav-link:hover {
+    color : whitesmoke;
+}
+
+
+.navbar-brand, .navbar-brand {
+    color : white;
+}
+
+.navbar-brand:focus, .navbar-brand:hover {
+    color: rgb(17, 206, 181);
+}
+
+.activado{
+    border-bottom: 2px solid rgb(17, 206, 181);
+    font-weight:bold;
+}
+
+.imagen-work:hover{
+    opacity: 0.6;
+}
+
+.redes{
+    padding-top: 50px;
+    padding-bottom: 50px;
+    background-color: #f2f2f2;
+}
+
+.footer-wrap{
+    padding-top: 70px;
+    padding-bottom: 50px;
+    background-color: #2f2f2f;
+    color: white;
+}
+
+.btn-porfolio{
+    color: white;
+    background-color: rgb(17, 206, 181);
+}
+
+.btn-porfolio:hover{
+    color: white;
+    background-color: rgb(15, 90, 80);
+}
+
+.bg-dark{
+    transition: all 1s ease;
+}
+
+#carousel{
+    position: relative;
+}
+
+.overlay{
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    background-color: rgba(0,0,0,0.5);
+    color: white;
+
+}
+
+#main .carousel-inner{
+    max-height: 80vh;
+    object-fit: cover; /*ocupe el alto pero */
+    filter:grayscale(70%); /*escala de gris*/
+}
+
+textarea{
+    resize: none;
+}
+
+.section-blog{
+    margin-top: 60px;
+}
+
+.img-blog{
+    width: 100%;
+}
+
+.container-avatar{
+    position: relative;
+    top: -30px;
+}
+
+.img-avatar{
+    width: 100px;
+    border-radius: 100%;
+    border: 2px solid rgb(165, 160, 160);
+}
+
+.scroll-up{
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+}
+
+.scroll-up a{
+    color: #1abc9c;
+}
